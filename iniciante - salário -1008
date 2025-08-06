@@ -1,0 +1,21 @@
+"""Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas decimais.
+
+Entrada
+O arquivo de entrada contém 2 números inteiros e 1 número com duas casas decimais, representando o número, quantidade de horas trabalhadas e o valor que o funcionário recebe por hora trabalhada, respectivamente.
+
+Saída
+Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o $"""
+
+# INPUT DO NÚMERO DO FUNCIONARIO (INT) 
+# , HORAS TRABALHADAS(INT),VALOR POR HORA(0.2) E CALCULA O SALÁRIO 
+# SALARIO = VALOR POR HORA * HORA 
+# PRINT UM EMBAIXO DO OUTRO : NUMERO SALARIO
+
+NUMBER = int(input())
+HOURS_wk = int(input())
+HOUR_din = float(input())
+
+SALARY = HOURS_wk*HOUR_din
+
+print("NUMBER =", NUMBER)
+print("SALARY =", "U$ %0.2f"%SALARY)
